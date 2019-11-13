@@ -4,8 +4,8 @@ import java.util.Scanner;
 
         public static void main(String[] args) {
             int n = 0,cont = 0;
-            int x = (int) (500 *Math.random());
-            //int x = (int)Math.floor((Math.random()*(10-50+1)+50));//valor entre 10 y 50 ambos inclusive
+
+            int x = (int)Math.floor((Math.random()*(10-50+1)+50));//valor entre 10 y 50 ambos inclusive
             //System.out.print(x);
             Scanner sc = new Scanner(System.in);
             do {
